@@ -1,0 +1,21 @@
+#%RAML 1.0
+title: MyAPI
+version: 1.0
+baseUri: http://com.foo.bar/api
+displayName: StudentDetails
+description: Students details field and datatypes are defines here
+
+type: object
+properties:
+  id?: string
+  firstName: string
+  lastName: string
+  address: string
+  postal: string
+  country: string
+  state: string
+  contactNo: integer
+  courseName: string
+  admissionDate?: datetime
+  type: string
+
